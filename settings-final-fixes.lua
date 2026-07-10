@@ -1,0 +1,11 @@
+local Settings = require("__cf-lib__.settings.Settings")
+
+Settings.default("si-max-inserters-range", 6)
+Settings.default("si-range-adder", "incremental-with-rebase")
+Settings.default("si-offset-selector", true)
+Settings.default("si-inserters-chase-belt-items", false)
+Settings.default("si-range-technologies", true)
+Settings.default("si-diagonal-technologies", true)
+Settings.default("si-offset-technologies", true)
+Settings.default("si-technologies-difficulty", "normal")
+Settings.forceDefault("si-disable-inserters-consumption")
